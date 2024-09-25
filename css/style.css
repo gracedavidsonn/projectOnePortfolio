@@ -5,7 +5,7 @@
 body {
     background-color: #D9ECFE;
     color: #004F3D;
-    margin: 20px 50px;
+    margin: 20px 100px;
 }
 
 nav {
@@ -23,7 +23,7 @@ nav a {
 
 h1 {
     font-family: 'Londrina Solid';
-    font-size: 72px;
+    font-size: 60px;
     padding: 20px;
 }
 
@@ -51,16 +51,42 @@ p {
     padding: 20px;
 }
 
+footer {
+    text-align: center;
+}
+
+#socialLinks a {
+    color: #004F3D;
+    font-family: 'Inter';
+    font-size: 14px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #004F3D;
+}
+
 #introduction h1 {
     display:inline-block;
 
 }
 
 #introduction p {
-    display: inline-block;
+    margin-left: 440px;
 }
 
 #introduction img {
     width: 400px;
     padding: 20px;
+}
+
+#inspiration h2 {
+    display: inline-block;
+}
+
+#inspiration p {
+    width: 300px;
+}
+
+#inspiration img {
+    width: 300px;
 }
