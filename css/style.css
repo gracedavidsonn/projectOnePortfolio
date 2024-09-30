@@ -58,6 +58,8 @@ nav a:hover {
     align-self: flex-end;
 }
 
+
+
 /* TEXT STYLING */
 h1 {
     font-family: 'Balsamiq Sans';
@@ -100,6 +102,8 @@ p {
     padding: 10px 0px;
 }
 
+
+
 /* FOOTER */
 footer {
     display: flex;
@@ -120,6 +124,8 @@ footer {
     width: 100%;
 
 }
+
+
 
 /* HOME PAGE */
 #introduction {
@@ -147,6 +153,8 @@ footer {
     padding-top: 20px;
     align-self: flex-start;
 }
+
+
 
 /* INSPIRATION PAGE */
 #inspiration {
@@ -193,8 +201,9 @@ footer {
     width: 100%;
 }
 
-/* DIARY PAGE */
 
+
+/* DIARY PAGE */
 #travelDiary {
     display: flex;
     flex-direction: row;
@@ -222,7 +231,7 @@ li img {
 #linguini {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 30px;
     padding-top: 2%;
@@ -230,9 +239,13 @@ li img {
 }
 
 #linguini li {
-    padding-bottom: 2%;
+    width: 20%;
 }
 
-#linguini li h3 {
+#linguini li p {
     text-align: center;
+    font-family: 'Balsamiq Sans';
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 400;
 }
